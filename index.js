@@ -7,7 +7,7 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true
         },
-        // icon: __dirname + '/site/favicon.ico'
+        icon: __dirname + '/favicon.ico'
     })
 
     win.loadFile('Beepbox.html');
